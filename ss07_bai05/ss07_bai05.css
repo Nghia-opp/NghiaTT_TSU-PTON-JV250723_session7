@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-parent {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.parent {
+    width: 1000px;
+    height: 220px;
+    text-align: center;
+    border: 5px solid white;
+}
+.big {
+    background-color: rgb(39, 39, 78);
+    padding-top:20px;
+}
+.child {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.small-child {
+    background-color: rgb(39, 39, 78);
+    width: calc(450px - 10px);
+    height: calc(110px - 10px);
+    padding: 40px 0;
+}
